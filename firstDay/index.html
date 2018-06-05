@@ -13,7 +13,7 @@
 	</script>
 	<div class="wrap">
 		<header class="header">
-			<ul>
+			<ul class="navlist">
 				<li>首页</li><li>军事</li><li>国际</li>
 				<li>民生</li><li>娱乐</li><li>历史</li>
 				<li>民事</li><li>史诗</li><li>纪实</li>
@@ -41,6 +41,11 @@
 	</div>
 	<script type="text/javascript" src="js/jQuery-3.2.1.js" ></script>
 	<script type="text/javascript" src="js/iscroll-probe.js" ></script>
-	<script type="text/javascript" src="js/index.js" ></script>
+	<script>
+		new IScroll(".navlist",{
+			scrollY:false,
+			scrollX:true
+		})
+	</script>
 </body>
 </html>

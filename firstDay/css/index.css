@@ -21,14 +21,24 @@ body {
   width: 100%;
   overflow: hidden;
 }
-.header ul {
+.header .navlist {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #ccc;
 }
-.header ul li {
+.header .navlist li {
   line-height: 1rem;
   text-align: center;
   padding: 0 .5rem;
   flex-shrink: 0;
+}
+.section {
+  flex: 1;
+  width: 100%;
+}
+.section ul {
+  width: 100%;
+}
+.section ul li {
+  text-align: center;
 }
